@@ -7,3 +7,7 @@ Utilize os conhecimentos e dicas aprendidos até o momento para adicionar esses 
 Adicione o repositório remoto do GitHub como um *remote* nesse repositório local e então envie todos os commits para o GitHub.
 
 *Obs.: você poderá enviar todos os commits de uma vez ou gradualmente.*
+
+## Meu site Pessoal com o GitHub Pages
+
+Este projeto foi desenvolvido durante o curso de Git da OneBitCode.
