@@ -1,13 +1,30 @@
-# Exercício 3
+# 👋 Olá! Me chamo Junior Soares
 
-Crie um novo repositório no GitHub com o nome no formato **seu_nome_de_usuario.github.io** (por exemplo, isaaclarrubia.github.io). Em seguida, crie um repositório local e então adicione alguns codigos.
+Atualmente curso **Ciência da Computação no UNIFESO (6º período)** e estudo **inglês há três anos na WIZARD**.  
+Além da graduação, concluí recentemente um curso de **desenvolvedor full stack**, o que me permitiu explorar o ciclo completo de desenvolvimento web e consolidar conceitos importantes da área.
 
-Utilize os conhecimentos e dicas aprendidos até o momento para adicionar esses arquivos de forma organizada no histórico de commits, simulando o desenvolvimento gradual de um projeto.
+Tenho interesse em construir aplicações completas, entender o funcionamento das tecnologias por trás e evoluir como desenvolvedor para atuar profissionalmente na área.
 
-Adicione o repositório remoto do GitHub como um *remote* nesse repositório local e então envie todos os commits para o GitHub.
+---
 
-*Obs.: você poderá enviar todos os commits de uma vez ou gradualmente.*
+## 🧠 Tecnologias que já estudei
 
-## Meu site Pessoal com o GitHub Pages
+- **Frontend:** HTML, CSS, SASS, Bootstrap, JavaScript, React, Next.js
+- **Backend:** Node.js, TypeScript
+- **Banco de Dados:** PostgreSQL
+- **Ferramentas & Outros:** Prisma
 
-Este projeto foi desenvolvido durante o curso de Git da OneBitCode.
+---
+
+## 🎯 Objetivo
+
+Continuar evoluindo tecnicamente, construindo projetos reais e ingressar no mercado de tecnologia como desenvolvedor.
+
+---
+
+## 📌 Sobre mim
+
+- Cursando 6º período de Ciência da Computação
+- Curso de desenvolvedor full stack concluído
+- Sempre aprendendo e praticando
+- Aberto a desafios e oportunidades
