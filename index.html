@@ -1,87 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="./index.js" defer></script>
     <title>Meu Portfólio</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="particles"></div>
 
-    <nav class="navigation">
-        <ul class="menu">
-            <li>
-                <a href="#top" class="menu-link">Início</a>
-            </li>
-            <li>
-                <a href="#about" class="menu-link">Sobre</a>
-            </li>
-            <li>
-                <a href="#projects" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#contact" class="menu-link">Contato</a>
-            </li>
-        </ul>
+    <nav class="nav-bar">
+      <ul class="menu">
+        <li>
+          <a href="#top" class="nav-link">Início</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link">Projetos</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contato</a>
+        </li>
+      </ul>
     </nav>
 
-    <main id="top" class="header">
-        <img src="./img/eu.jpeg" alt="Foto de Júnior Soares" class="profile-picture">
-        <h1>Júnior Soares</h1>
-        <p class="header-subtitle">Desenvolvedor Full Stack</p>
+    <main id="top">
+      <img
+        src="./img/eu.jpeg"
+        alt="Foto de Júnior Soares"
+        class="profile-picture"
+      />
+      <h1>Júnior Soares</h1>
+      <p class="header-subtitle">Desenvolvedor Full Stack</p>
     </main>
 
     <section id="about" class="section">
-        <h2 class="about-title">Sobre Mim</h2>
-        <div class="about-container">
-            <p class="about-text">
-                Olá! Sou um desenvolvedor Fullstack apaixonado por criar experiências web únicas e memoráveis. Combino código, link com design moderno para desenvolver sites que não só funcionam perfeitamente, mas também impressionam visualmente.
-            </p>
-        </div>
+      <h2 class="about-title">Sobre Mim</h2>
+      <div class="about-container">
+        <p class="about-text">
+          Olá! Sou um desenvolvedor Fullstack apaixonado por criar experiências
+          web únicas e memoráveis. Combino código limpo com design moderno para
+          desenvolver sites que não só funcionam perfeitamente, mas também
+          impressionam visualmente.
+        </p>
+        <p class="about-text">
+          Tenho 21 anos e estou cursando o sexto período de Ciência da
+          Computação. Além da faculdade, busco constantemente aprimorar minhas
+          habilidades por meio de estudos independentes e cursos complementares.
+          Atualmente, faço curso de inglês na Wizard e já concluí algumas
+          formações voltadas para desenvolvimento web, passando por front-end,
+          back-end e, mais recentemente, um curso full-stack.
+        </p>
+
+        <p class="about-text">
+          Ao longo dessa trajetória, desenvolvi uma base sólida em tecnologia e
+          programação, e descobri o quanto me identifico com o ambiente de
+          desenvolvimento. Sou uma pessoa dedicada, esforçada e curiosa. Gosto
+          de aprender coisas novas e me desafiar, pois acredito que evolução
+          profissional é consequência de disciplina e esforço contínuo.
+        </p>
+
+        <p class="about-text">
+          Estou sempre em busca de novas oportunidades para crescer, contribuir
+          e expandir meus conhecimentos. Meu objetivo é desenvolver minha
+          carreira na área de tecnologia, trabalhando com soluções reais,
+          podendo aprender com profissionais experientes e, ao mesmo tempo,
+          agregar valor com meu comprometimento, minha vontade de aprender e
+          minha capacidade de estudo.
+        </p>
+      </div>
+    </section>
+
+    <section class="smaller-session logos">
+      <div class="logos-slide">
+        <img src="./img/logos/html-5.png" alt="html-5" />
+        <img src="./img/logos/css-3.png" alt="css-3" />
+        <img src="./img/logos/js.png" alt="javascript" />
+        <img src="./img/logos/typescript.png" alt="typescript" />
+        <img src="./img/logos/social.png" alt="git" />
+        <img src="./img/logos/github.png" alt="github" />
+        <img src="./img/logos/bootstrap.png" alt="bootstrap" />
+        <img src="./img/logos/sass.png" alt="sass" />
+        <img src="./img/logos/physics.png" alt="react" />
+        <img src="./img/logos/icons8-next.js-128.png" alt="next.js" />
+        <img src="img/logos/programing.png" alt="node" />
+        <img src="./img/logos/postgre.png" alt="postgresql" />
+        <img src="./img/logos/icons8-prisma-orm-128.png" alt="prisma" />
+        <img src="./img/logos/database.png" alt="sql" />
+      </div>
+      <div class="logos-slide">
+        <img src="./img/logos/html-5.png" alt="html-5" />
+        <img src="./img/logos/css-3.png" alt="css-3" />
+        <img src="./img/logos/js.png" alt="javascript" />
+        <img src="./img/logos/typescript.png" alt="typescript" />
+        <img src="./img/logos/social.png" alt="git" />
+        <img src="./img/logos/github.png" alt="github" />
+        <img src="./img/logos/bootstrap.png" alt="bootstrap" />
+        <img src="./img/logos/sass.png" alt="sass" />
+        <img src="./img/logos/physics.png" alt="react" />
+        <img
+          src="./img/logos/icons8-next.js-128.png"
+          class="shine"
+          alt="next.js"
+        />
+        <img src="img/logos/programing.png" alt="node" />
+        <img src="./img/logos/postgre.png" alt="postgresql" />
+        <img src="./img/logos/icons8-prisma-orm-128.png" alt="prisma" />
+        <img src="./img/logos/database.png" alt="sql" />
+      </div>
     </section>
 
     <section id="projects" class="section">
-        <h2 class="projects-title">Meus Projetos</h2>
-        <div class="projects-container">
-            <div class="projects-card">
-                <img src="./img/projeto1.png" alt="Projeto 1" class="projects-img">
-                <div class="projects-text-container">
-                    <h3 class="projects-info">Loja de Carros</h3>
-                    <p class="projects-text">Loja virtual moderna com animações suaves e design expansível para uma loja de carros de luxo.</p>
-                </div>
-            </div>
-
-            <div class="projects-card">
-                <img src="./img/projeto2.png" alt="Projeto 2" class="projects-img">
-                <div class="projects-text-container">
-                    <h3 class="projects-info">Página de Viagens</h3>
-                    <p class="projects-text">Uma página interativa com roteiros de viagens mais cobiçadas do mundo.</p>
-                </div>
-            </div>
-
-            <div class="projects-card">
-                <img src="./img/projeto3.png" alt="Projeto 3" class="projects-img">
-                <div class="projects-text-container">
-                    <h3 class="projects-info">Microsoft</h3>
-                    <p class="projects-text">Página da Microsoft criada para demonstrar conhecimentos em diversas tecnologias.</p>
-                </div>
-            </div>
+      <h2 class="projects-title">Meus Projetos</h2>
+      <div class="projects-container">
+        <div class="projects-card">
+          <img src="./img/projeto1.png" alt="Projeto 1" class="projects-img" />
+          <div class="projects-text-container">
+            <h3 class="projects-info">Loja de Carros</h3>
+            <p class="projects-text">
+              Loja virtual moderna com animações suaves e design expansível para
+              uma loja de carros de luxo.
+            </p>
+          </div>
         </div>
+
+        <div class="projects-card">
+          <img src="./img/projeto2.png" alt="Projeto 2" class="projects-img" />
+          <div class="projects-text-container">
+            <h3 class="projects-info">Página de Viagens</h3>
+            <p class="projects-text">
+              Uma página interativa com roteiros de viagens mais cobiçadas do
+              mundo.
+            </p>
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="./img/projeto3.png" alt="Projeto 3" class="projects-img" />
+          <div class="projects-text-container">
+            <h3 class="projects-info">Microsoft</h3>
+            <p class="projects-text">
+              Página da Microsoft criada para demonstrar conhecimentos em
+              diversas tecnologias.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="section">
-        <h2 class="contacts-title">Entre em Contato</h2>
-        <form class="contact-form" id="form">
-            <div class="contact-container">
-                <input class="form-field" type="text" name="name" id="name" placeholder="Nome">
-            </div>
-            <div class="contact-container">
-                <textarea class="form-field" name="message" id="message" placeholder="Digite sua mensagem..." rows="6"></textarea>
-            </div>
-            <button type="submit" class="form-button">Enviar via WhatsApp</button>
-        </form>
+    <section id="contact" class="contact-section">
+      <h2 class="contacts-title">Entre em Contato</h2>
+      <form class="contact-form" id="form">
+        <div class="contact-container">
+          <input
+            class="form-field"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nome"
+          />
+        </div>
+        <div class="contact-container">
+          <textarea
+            class="form-field"
+            name="message"
+            id="message"
+            placeholder="Digite sua mensagem..."
+            rows="6"
+          ></textarea>
+        </div>
+        <button type="submit" class="form-button">Enviar via WhatsApp</button>
+      </form>
     </section>
-</body>
+    <footer>
+      <div class="social-media">
+        <a href="https://www.instagram.com/junnior_ws/" target="_blank">
+          <img src="./img/logos/instagram.png" alt="instagram"/>
+        </a>
+        <a href="https://github.com/JuniorWSoares" target="_blank">
+          <img src="./img/logos/github2.png" alt="github"/>
+        </a>
+        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank">
+          <img src="./img/logos/linkedin.png" alt="linkedin"/>
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
