@@ -23,7 +23,7 @@ body {
     color: var(--color-light);
 }
 
-projects-card > a {
+.projects-card > a {
     text-decoration: none;
     color: var(--color-light);
 }
